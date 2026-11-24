@@ -1,6 +1,7 @@
 // The Dumbest Thing Your Agent Did Today — make.fun bounty entry.
 // Writes the entry line to /output/entry.txt: exactly one line, 104 characters,
 // no trailing newline, deterministic.
+// Run with Node 22: node main.ts
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
